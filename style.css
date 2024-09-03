@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
 /* pre loader*/
 #preloader{
     width: 100%;
@@ -32,4 +39,16 @@ z-index: 1000;
     60% {background-size: 20% 50% ,20% 100%,20% 20% }
     80% {background-size: 20% 50% ,20% 50% ,20% 100%}
     100%{background-size: 20% 50% ,20% 50% ,20% 50% }
+  }
+
+  /* ===== nav bar ===== */
+
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-bar  img{
+    width: 12rem;
   }
