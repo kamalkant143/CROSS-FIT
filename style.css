@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", system-ui;
+  scroll-behavior: smooth;
 }
 
 :root{
@@ -123,6 +124,7 @@ li {
   top: 0 ;
   right: 0;
   left: 0;
+  z-index: 100;
 }
 
 .nav-bar .logo-box {
@@ -167,7 +169,7 @@ color:var(--main-color);
 
 #hero-section{
     height: 100vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url("images/main-background_image.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url("images/main-background_image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -250,6 +252,7 @@ color:var(--main-color);
     color: var(--off-white);
     font-size: 1.6rem;
     font-weight: 400;
+    margin-bottom: 2rem;
 }
 
 #about-section .right-box {
