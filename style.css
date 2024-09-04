@@ -210,11 +210,14 @@ color:var(--main-color);
 /* === about section styling === */
 #about-section{
     background-color: #191A1E;
+    display: flex;
+    align-items: center;
 }
 
 #about-section .left-box{
     width: 50%;
     padding: 10rem;
+    margin-left: 8rem;
 }
 #about-section .left-box .about{
     font-size: 3rem;
@@ -247,4 +250,24 @@ color:var(--main-color);
     color: var(--off-white);
     font-size: 1.6rem;
     font-weight: 400;
+}
+
+#about-section .right-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-section .right-box .container{
+    /* border: 10px solid var(--main-color); */
+    border-top: 10px solid var(--main-color);
+    border-left:10px solid var(--main-color) ;
+    border-right:10px solid var(--second-main-color)  ;
+    border-bottom:10px solid var(--second-main-color)  ;
+
+}
+
+#about-section .right-box img{
+    width:35rem;
 }
