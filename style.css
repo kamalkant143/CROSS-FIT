@@ -5,6 +5,12 @@
   font-family: "Poppins", system-ui;
 }
 
+:root{
+   --background-color:#0B0B0B;
+    --main-color:#E60023;
+    --font-color:#fff;
+    --off-white:#efebeb;
+}
 html {
   font-size: 62.5%;
 }
@@ -61,6 +67,11 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 0 8rem;
+  background-color:var(--background-color);
+  position: fixed;
+  top: 0 ;
+  right: 0;
+  left: 0;
 }
 
 .nav-bar .logo-box {
@@ -74,9 +85,10 @@ li {
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
+  color: var(--font-color);
 } 
 .nav-bar .logo-box p span{
-color: #E60023;
+color:var(--main-color);
 }
 .nav-bar .logo-box img {
     margin-right: -3rem;
@@ -90,6 +102,43 @@ color: #E60023;
 }
 
 .nav-bar .nav-iteam li a{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
-    color: #000;
+    color:var(--off-white);
+    transition: all 0.3s linear;
+}
+
+.nav-bar .nav-iteam li a:hover{
+    color: var(--main-color);
+}
+
+/* === hero seection styling ==== */
+
+#hero-section{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3)), url("images/main-background_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* clip-path: polygon( 0% 0%, 100% 0%, 100% 90%, 0% 100%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-section .hero-box h1{
+    font-size: 8rem;
+    color: var(--font-color);
+}
+
+#hero-section .hero-box h1 span{
+    color: var(--main-color);
+
+}
+
+#hero-section .hero-box h2{
+    margin-top: -3rem;
+    color: var(--font-color);
+    font-size:3rem ;
+    font-weight: 600;
+}
