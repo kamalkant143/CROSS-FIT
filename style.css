@@ -112,8 +112,6 @@ li {
 
 /* ===== nav bar ===== */
 
-
-
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -207,9 +205,83 @@ li {
   padding-top: 2rem;
 }
 
+.form-style-9 {
+  display: none;
+  position: absolute;
+  z-index: 5000;
+  max-width: 450px;
+  background: #fafafa;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #305a72;
+}
+.form-style-9 ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.form-style-9 ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+.form-style-9 ul li .field-style {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #b0cfe0;
+  /* -webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out; */
+}
+.form-style-9 ul li .field-style:focus {
+  box-shadow: 0 0 5px #b0cfe0;
+  border: 1px solid #b0cfe0;
+}
+.form-style-9 ul li .field-split {
+  width: 49%;
+}
+.form-style-9 ul li .field-full {
+  width: 100%;
+}
+.form-style-9 ul li input.align-left {
+  float: left;
+}
+.form-style-9 ul li input.align-right {
+  float: right;
+}
+.form-style-9 ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+.form-style-9 ul li input[type="button"],
+.form-style-9 ul li input[type="submit"] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #3985b1;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #3985b1;
+  box-shadow: inset 0px 1px 0px 0px #3985b1;
+  background-color: #216288;
+  border: 1px solid #17445e;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style-9 ul li input[type="button"]:hover,
+.form-style-9 ul li input[type="submit"]:hover {
+  background: linear-gradient(to bottom, #2d77a2 5%, #337da8 100%);
+  background-color: #28739e;
+}
+
 /* === about section styling === */
 #about-section {
-  background-color: #191a1e;
+  background-color: var(--background-color);
   display: flex;
   align-items: center;
 }
@@ -271,81 +343,6 @@ li {
   width: 35rem;
 }
 
-
-.form-style-9{
-  display: none;
-  position: absolute;
-  z-index: 5000;
-	max-width: 450px;
-	background: #FAFAFA;
-	padding: 30px;
-	margin: 50px auto;
-	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
-	border-radius: 10px;
-	border: 6px solid #305A72;
-}
-.form-style-9 ul{
-	padding:0;
-	margin:0;
-	list-style:none;
-}
-.form-style-9 ul li{
-	display: block;
-	margin-bottom: 10px;
-	min-height: 35px;
-}
-.form-style-9 ul li  .field-style{
-	box-sizing: border-box; 
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box; 
-	padding: 8px;
-	outline: none;
-	border: 1px solid #B0CFE0;
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
-
-}.form-style-9 ul li  .field-style:focus{
-	box-shadow: 0 0 5px #B0CFE0;
-	border:1px solid #B0CFE0;
-}
-.form-style-9 ul li .field-split{
-	width: 49%;
-}
-.form-style-9 ul li .field-full{
-	width: 100%;
-}
-.form-style-9 ul li input.align-left{
-	float:left;
-}
-.form-style-9 ul li input.align-right{
-	float:right;
-}
-.form-style-9 ul li textarea{
-	width: 100%;
-	height: 100px;
-}
-.form-style-9 ul li input[type="button"], 
-.form-style-9 ul li input[type="submit"] {
-	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
-	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
-	box-shadow: inset 0px 1px 0px 0px #3985B1;
-	background-color: #216288;
-	border: 1px solid #17445E;
-	display: inline-block;
-	cursor: pointer;
-	color: #FFFFFF;
-	padding: 8px 18px;
-	text-decoration: none;
-	font: 12px Arial, Helvetica, sans-serif;
-}
-.form-style-9 ul li input[type="button"]:hover, 
-.form-style-9 ul li input[type="submit"]:hover {
-	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
-	background-color: #28739E;
-}
-
 /* ==== services section stying ===== */
 
 #services-section {
@@ -404,21 +401,27 @@ li {
   border-left: 6px solid var(--second-main-color);
   border-right: 6px solid var(--second-main-color);
   cursor: pointer;
-
 }
 
-#services-section .src-container .src-box.src-box-last  { 
+#services-section .src-container .src-box.src-box-last {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to top, var(--main-color) 0%, var(--second-main-color) 100%);
+  background-image: linear-gradient(
+    to top,
+    var(--main-color) 0%,
+    var(--second-main-color) 100%
+  );
   border: none;
   transition: all 0.3s;
 }
 
-#services-section .src-container .src-box.src-box-last:hover{
-  background-image: linear-gradient(to bottom, var(--main-color) 0%, var(--second-main-color) 100%);
-
+#services-section .src-container .src-box.src-box-last:hover {
+  background-image: linear-gradient(
+    to bottom,
+    var(--main-color) 0%,
+    var(--second-main-color) 100%
+  );
 }
 
 #services-section .src-container .src-box img {
@@ -428,15 +431,13 @@ li {
   overflow: hidden;
 }
 
-
 #services-section .src-container .src-box .details-box {
   position: absolute;
   bottom: 5rem;
   left: 4rem;
   transition: all 0.3s;
-   background-color:#0b0b0b6f ;
-   padding: 1rem;
-
+  background-color: #0b0b0b6f;
+  padding: 1rem;
 }
 
 #services-section .src-container .src-box:hover .details-box {
@@ -454,6 +455,40 @@ li {
   color: var(--second-main-color);
 }
 
-#services-section .src-container .src-box .details-box h3:hover{
+#services-section .src-container .src-box .details-box h3:hover {
   text-decoration: underline;
+}
+
+/* ==== team section styling ==== */
+#team-section {
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+}
+
+#team-section .team-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+}
+
+#team-section .team-details h2 {
+  color: var(--font-color);
+  font-size: 5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#team-section .team-details h2 span {
+  color: var(--main-color);
+}
+
+#team-section .team-details p {
+  margin-top: 1.3rem;
+  color: var(--off-white);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
