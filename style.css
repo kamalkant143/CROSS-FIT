@@ -336,6 +336,12 @@ li {
   align-items: center;
   background-image: linear-gradient(to top, var(--main-color) 0%, var(--second-main-color) 100%);
   border: none;
+  transition: all 0.3s;
+}
+
+#services-section .src-container .src-box.src-box-last:hover{
+  background-image: linear-gradient(to bottom, var(--main-color) 0%, var(--second-main-color) 100%);
+
 }
 
 #services-section .src-container .src-box img {
