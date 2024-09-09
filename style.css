@@ -341,7 +341,10 @@ li {
 #services-section .src-container .src-box img {
   width: 100%;
   height: 100%;
+  transition: all 0.3s;
+  overflow: hidden;
 }
+
 
 #services-section .src-container .src-box .details-box {
   position: absolute;
