@@ -462,7 +462,6 @@ li {
 /* ==== team section styling ==== */
 #team-section {
   background-color: var(--background-color);
-  display: flex;
   align-items: center;
 }
 
@@ -491,4 +490,66 @@ li {
   font-size: 1.5rem;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+#team-section .team-container {
+  padding: 5rem;
+}
+
+#team-section .team-container .team-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 30rem;
+  cursor: pointer;
+  
+}
+
+#team-section .team-container .team-box .top{
+  position: relative;
+  overflow: hidden;
+  width: 30rem;
+  height: auto;
+}
+#team-section .team-container .team-box .top::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)); /* Starting with transparent */
+  transition: transform 0.5s ease;
+
+}
+
+#team-section .team-container .team-box .top:hover::before{
+ transform: translateY(0);
+}
+
+
+#team-section .team-container .team-box img {
+  width: 100%;
+}
+
+
+
+#team-section .team-container .team-box .bottom {
+  background-color: var(--second-main-color);
+  width: 100%;
+  padding-block: 2rem;
+}
+
+#team-section .team-container .team-box .bottom h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--font-color);
+}
+
+#team-section .team-container .team-box .bottom h3 {
+  color: var(--off-white);
+  font-size: 1.5rem;
 }
