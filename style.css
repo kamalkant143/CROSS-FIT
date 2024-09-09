@@ -493,7 +493,7 @@ li {
 }
 
 #team-section .team-container {
-  padding: 5rem;
+  padding: 8rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
