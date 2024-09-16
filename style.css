@@ -550,7 +550,37 @@ li {
   color: var(--main-color);
 }
 
+#team-section .team-container .team-box .bottom h2:hover{
+  text-decoration: underline;
+}
+
 #team-section .team-container .team-box .bottom h3 {
   color: var(--off-white);
   font-size: 1.5rem;
+}
+
+#team-section .team-container .team-box .bottom .follower {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.2rem;
+}
+
+#team-section .team-container .team-box .bottom .follower a {
+  text-decoration: none;
+  border: 1px solid red;
+  padding: 0.8rem;
+}
+
+#team-section .team-container .team-box .bottom .follower a:hover{
+  background-color:var(--main-color) ;
+}
+
+#team-section .team-container .team-box .bottom .follower a i{
+  font-size: 1.8rem;
+  color: var(--main-color);
+}
+
+#team-section .team-container .team-box .bottom .follower a:hover i{
+  color: var(--second-main-color);
 }
