@@ -8,6 +8,7 @@
 
 :root {
   --background-color: #0b0b0b;
+ --background-color-2: #191A1E;
   --main-color: #e60023;
   --font-color: #fff;
   --off-white: #efebeb;
@@ -595,7 +596,9 @@ li {
 
 /* ======= news section styling ======= */
 #news-secton {
-  background-color: var(--background-color);
+  background-color: var(--background-color-2);
+  height: auto;
+  padding-bottom: 5rem;
 }
 #news-secton .news-details {
   display: flex;
@@ -623,6 +626,48 @@ li {
   font-weight: 600;
   text-transform: uppercase;
 }
+#news-secton .news-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 5rem;
+}
 
+#news-secton .news-container .news-box{
+  width: 60rem;
+  height: 25rem;
+  display: flex;
+}
 
+#news-secton .news-container .news-box .left{
+  width: 50%;
+}
+
+#news-secton .news-container .news-box .left img{
+  width: 100%;
+  height: 100%;
+}
+
+#news-secton .news-container .news-box .right{
+  background-color: #20232A;
+  width: 50%;
+  padding: 4rem 3rem;
+}
+
+#news-secton .news-container .news-box .right h2{
+color: var(--second-main-color);
+font-size: 2.2rem;
+}
+
+#news-secton .news-container .news-box .right p{
+  color: var(--off-white);
+  font-size: 1.5rem;
+  margin-block: 1.8rem;
+}
+
+#news-secton .news-container .news-box .right h3{
+  color: var(--font-color);
+  font-size: 1.6rem;
+}
 
