@@ -595,12 +595,12 @@ li {
 }
 
 /* ======= news section styling ======= */
-#news-secton {
+#news-section {
   background-color: var(--background-color-2);
   height: auto;
   padding-bottom: 5rem;
 }
-#news-secton .news-details {
+#news-section .news-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -608,25 +608,25 @@ li {
   padding-top: 10rem;
 }
 
-#news-secton .news-details h2 {
+#news-section .news-details h2 {
   color: var(--font-color);
   font-size: 5rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-#news-secton .news-details h2 span {
+#news-section .news-details h2 span {
   color: var(--main-color);
 }
 
-#news-secton .news-details p {
+#news-section .news-details p {
   margin-top: 1.3rem;
   color: var(--off-white);
   font-size: 1.5rem;
   font-weight: 600;
   text-transform: uppercase;
 }
-#news-secton .news-container {
+#news-section .news-container {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -634,39 +634,40 @@ li {
   margin-top: 5rem;
 }
 
-#news-secton .news-container .news-box{
+#news-section .news-container .news-box{
   width: 60rem;
   height: 25rem;
   display: flex;
 }
 
-#news-secton .news-container .news-box .left{
+#news-section .news-container .news-box .left{
   width: 50%;
 }
 
-#news-secton .news-container .news-box .left img{
+#news-section .news-container .news-box .left img{
   width: 100%;
   height: 100%;
 }
 
-#news-secton .news-container .news-box .right{
+#news-section .news-container .news-box .right{
   background-color: #20232A;
   width: 50%;
   padding: 4rem 3rem;
 }
 
-#news-secton .news-container .news-box .right h2{
+#news-section .news-container .news-box .right h2{
 color: var(--second-main-color);
 font-size: 2.2rem;
+cursor: pointer;
 }
 
-#news-secton .news-container .news-box .right p{
+#news-section .news-container .news-box .right p{
   color: var(--off-white);
   font-size: 1.5rem;
   margin-block: 1.8rem;
 }
 
-#news-secton .news-container .news-box .right h3{
+#news-section .news-container .news-box .right h3{
   color: var(--font-color);
   font-size: 1.6rem;
 }
