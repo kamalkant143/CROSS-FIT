@@ -588,7 +588,7 @@ li {
 
 /* ======= banner section styling ======= */
 
-#banner-section{
+/* #banner-section{
   background-image: url("images/banner-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -599,6 +599,12 @@ li {
   align-items: center;
   padding-right: 22rem;
   padding-top: 35rem;
+} */
+
+#banner-section img{
+  width: 100%;
 }
+
+
 
 
