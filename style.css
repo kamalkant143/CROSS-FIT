@@ -159,6 +159,7 @@ li {
   font-weight: 500;
   color: var(--off-white);
   transition: all 0.3s linear;
+  cursor: pointer;
 }
 
 .nav-bar .nav-iteam li a:hover {
@@ -690,10 +691,10 @@ input {
   caret-color: red;
 }
 
-#contact-section{
+.contact-section{
   width: 100%;
   height: 100%;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -702,13 +703,15 @@ input {
   top: 0;
   z-index: 8000;
   background-color:#f5f3f39a;
+  display: none;
+
 }
 
-#contact-section.close{
-  display: none;
+.contact-section.open-login{
+  display: flex;
 }
-#contact-section .container {
-  position: relative;
+.contact-section .container {
+  /* position: relative; */
   width: 35rem;
   height: 50rem;
   border-radius: 2rem;
@@ -716,7 +719,7 @@ input {
   background: #ecf0f3;
 }
 
-#contact-section .brand-logo {
+.contact-section .brand-logo {
   height: 10rem;
   width: 10rem;
   background-image: url("images/logo.png");
@@ -728,7 +731,7 @@ input {
   box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
 }
 
-#contact-section .brand-title {
+.contact-section .brand-title {
   margin-top: 1rem;
   font-weight: 900;
   font-size: 1.8rem;
@@ -736,12 +739,12 @@ input {
   letter-spacing: 1px;
 }
 
-#contact-section .inputs {
+.contact-section .inputs {
   text-align: left;
   margin-top: 3rem;
 }
 
-#contact-section .inputs label, #contact-section .inputs input, #contact-section .inputs button {
+.contact-section .inputs label, .contact-section .inputs input, .contact-section .inputs button {
   display: block;
   width: 100%;
   padding: 0;
@@ -750,19 +753,19 @@ input {
   font-size: 1.5rem;
 }
 
-#contact-section .inputs label {
+.contact-section .inputs label {
   margin-bottom: 0.4rem;
 }
 
-#contact-section .inputs label:nth-of-type(2) {
+.contact-section .inputs label:nth-of-type(2) {
   margin-top: 1.2rem;
 }
 
-#contact-section .inputs input::placeholder {
+.contact-section .inputs input::placeholder {
   color: gray;
 }
 
-#contact-section .inputs input {
+.contact-section .inputs input {
   background: #ecf0f3;
   padding: 1rem;
   padding-left: 2rem;
@@ -772,7 +775,7 @@ input {
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
 
-#contact-section .inputs button {
+.contact-section .inputs button {
   color: white;
   margin-top: 2rem;
   background: var(--second-main-color);
@@ -784,6 +787,6 @@ input {
   transition: 0.5s;
 }
 
-#contact-section .inputs button:hover {
+.contact-section .inputs button:hover {
   background-color: var(--main-color);
 }
