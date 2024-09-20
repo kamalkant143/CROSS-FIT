@@ -291,7 +291,7 @@ li {
 
 #about-section .left-box {
   width: 50%;
-  padding: 10rem;
+  padding: 9rem;
   margin-left: 8rem;
 }
 #about-section .left-box .about {
@@ -686,6 +686,9 @@ cursor: pointer;
 
 /* ======= contact section styling ======= */
 
+body.no-scroll{
+  overflow: hidden;
+}
 
 input {
   caret-color: red;
@@ -702,7 +705,8 @@ input {
   right: 0;
   top: 0;
   z-index: 8000;
-  background-color:#f5f3f39a;
+  background-color:#ffffff55;
+  backdrop-filter: blur(6px);
   display: none;
 
 }
@@ -711,12 +715,24 @@ input {
   display: flex;
 }
 .contact-section .container {
-  /* position: relative; */
+  position: relative;
   width: 35rem;
   height: 50rem;
   border-radius: 2rem;
   padding: 4rem;
   background: #ecf0f3;
+}
+
+.contact-section .container i{
+  position: absolute;
+  font-size: 2.5rem;
+  top: 1rem;
+  right: 2rem;
+  color: var(--second-main-color);
+  cursor: pointer;
+}
+.contact-section .container i:hover{
+  color: var(--main-color);
 }
 
 .contact-section .brand-logo {
