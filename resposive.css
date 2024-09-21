@@ -19,6 +19,10 @@
 
 @media (max-width: 1144px){
 
+    .nav-bar {
+        padding: 0 5rem;
+    }
+
     #about-section {
        padding-block: 3rem;
     }
@@ -26,9 +30,12 @@
         padding: 0rem;
         margin-left: 8rem;
     }
+    #services-section .src-container .src-box {
+        width: 30rem;
+    }
 
-    #team-section .team-container {
-        gap: 2.5rem;
+    #team-section .team-container .team-box {
+        width: 30rem;
     }
 
     #news-section .news-container .news-box {
@@ -38,5 +45,11 @@
 
     #news-section .news-container .news-box .right {
         padding: 2rem 1.2rem;
+    }
+}
+
+@media (max-width: 1035px){
+    .nav-bar {
+        padding: 0 3rem;
     }
 }
