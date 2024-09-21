@@ -1,106 +1,126 @@
 @media (max-width: 1246px) {
+  #hero-section .hero-box h1 {
+    margin-bottom: 1.2rem;
+  }
+  #hero-section .hero-box p {
+    font-size: 1.8rem;
+  }
 
-    #hero-section .hero-box h1 {
-        margin-bottom: 1.2rem;
-    }
-    #hero-section .hero-box p {
-        font-size: 1.8rem;
-    }
+  #about-section .left-box {
+    padding: 3rem;
+  }
 
-    #about-section .left-box {
-        padding: 3rem;
-    }
-
-    #about-section .left-box h2 {
-        font-size: 4.5rem;
-    }
+  #about-section .left-box h2 {
+    font-size: 4.5rem;
+  }
 }
 
+@media (max-width: 1144px) {
+  .nav-bar {
+    padding: 0 5rem;
+  }
 
-@media (max-width: 1144px){
+  #about-section {
+    padding-block: 3rem;
+  }
+  #about-section .left-box {
+    padding: 0rem;
+    margin-left: 8rem;
+  }
+  #services-section .src-container .src-box {
+    width: 30rem;
+  }
 
-    .nav-bar {
-        padding: 0 5rem;
-    }
+  #team-section .team-container .team-box {
+    width: 30rem;
+  }
 
-    #about-section {
-       padding-block: 3rem;
-    }
-    #about-section .left-box {
-        padding: 0rem;
-        margin-left: 8rem;
-    }
-    #services-section .src-container .src-box {
-        width: 30rem;
-    }
+  #news-section .news-container .news-box {
+    width: 50rem;
+    height: 20rem;
+  }
 
-    #team-section .team-container .team-box {
-        width: 30rem;
-    }
-
-    #news-section .news-container .news-box {
-        width: 50rem;
-        height: 20rem;
-    }
-
-    #news-section .news-container .news-box .right {
-        padding: 2rem 1.2rem;
-    }
+  #news-section .news-container .news-box .right {
+    padding: 2rem 1.2rem;
+  }
 }
 
-@media (max-width: 1035px){
-    .nav-bar {
-        padding: 0 3rem;
-    }
+@media (max-width: 1035px) {
+  .nav-bar {
+    padding: 0 3rem;
+  }
 
-    #hero-section .hero-box p {
-        padding-inline: 15rem;
-    }
+  #hero-section .hero-box p {
+    padding-inline: 15rem;
+  }
 
-    #about-section .left-box {
-        margin-left: 5rem;
-    }
+  #about-section .left-box {
+    margin-left: 5rem;
+  }
 
-    #about-section .left-box h2 {
-        font-size: 4rem;
-    }
+  #about-section .left-box h2 {
+    font-size: 4rem;
+  }
 
-    #about-section .left-box h3 {
-        font-size: 2rem;
-    }
+  #about-section .left-box h3 {
+    font-size: 2rem;
+  }
 
-    #team-section .team-container .team-box {
-        width: 28rem;
-    }
+  #team-section .team-container .team-box {
+    width: 28rem;
+  }
 
-    #news-section .news-container .news-box {
-        width: 70rem;
-        height: 25rem;
-    }
+  #news-section .news-container .news-box {
+    width: 70rem;
+    height: 25rem;
+  }
 
-    #news-section .news-container .news-box .right {
-        padding: 5rem 5rem;
-    }
+  #news-section .news-container .news-box .right {
+    padding: 5rem 5rem;
+  }
 }
 
-@media (max-width: 970px){
+@media (max-width: 970px) {
+  .nav-bar {
+    position: relative;
+  }
 
-    #services-section .src-details p {
-      padding-inline: 15rem;
-      text-align: center;
-        
-    }
-    #services-section .src-container .src-box {
-        width: 40rem;
-    }
+  .nav-bar .nav-iteam {
+    width: 30rem;
+    height: auto;
+    position: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    top: 0rem;
+    right: 0;
+    bottom: 0;
+    padding-block: 10rem;
+    background-color: #0b0b0b9b;
+  backdrop-filter: blur(15px);
+  display: none;
 
-    #team-section .team-details p {
-       padding-inline: 15rem;
-       text-align: center;
-    }
+  }
 
-    #news-section .news-details p {
-        padding-inline: 15rem;
-        text-align: center;
-    }
+  .nav-bar .nav-iteam .login2{
+    display: none;
+  }
+
+  #services-section .src-details p {
+    padding-inline: 15rem;
+    text-align: center;
+  }
+  #services-section .src-container .src-box {
+    width: 40rem;
+  }
+
+  #team-section .team-details p {
+    padding-inline: 15rem;
+    text-align: center;
+  }
+
+  #news-section .news-details p {
+    padding-inline: 15rem;
+    text-align: center;
+  }
 }
