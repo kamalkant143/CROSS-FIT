@@ -1,0 +1,42 @@
+@media (max-width: 1246px) {
+
+    #hero-section .hero-box h1 {
+        margin-bottom: 1.2rem;
+    }
+    #hero-section .hero-box p {
+        font-size: 1.8rem;
+    }
+
+    #about-section .left-box {
+        padding: 3rem;
+    }
+
+    #about-section .left-box h2 {
+        font-size: 4.5rem;
+    }
+}
+
+
+@media (max-width: 1144px){
+
+    #about-section {
+       padding-block: 3rem;
+    }
+    #about-section .left-box {
+        padding: 0rem;
+        margin-left: 8rem;
+    }
+
+    #team-section .team-container {
+        gap: 2.5rem;
+    }
+
+    #news-section .news-container .news-box {
+        width: 50rem;
+        height: 20rem;
+    }
+
+    #news-section .news-container .news-box .right {
+        padding: 2rem 1.2rem;
+    }
+}
