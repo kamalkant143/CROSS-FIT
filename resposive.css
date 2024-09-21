@@ -142,3 +142,37 @@
     text-align: center;
   }
 }
+
+
+@media (max-width: 892px) {
+    #about-section .left-box {
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 862px){
+    #about-section {
+        flex-direction: column-reverse;
+    }
+    #about-section .right-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #about-section .right-box img {
+        width: 30rem;
+    }
+    #about-section .left-box {
+        width: 100%;
+        padding-inline: 1rem ;
+    }
+
+    #services-section .src-container .src-box {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 725px){
+    
+}
