@@ -148,6 +148,17 @@ li {
   color: var(--main-color);
 }
 
+.close-navbar{
+  display: none;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.close-navbar a i{
+  font-size: 3rem;
+}
+
 .nav-bar .logo-box {
   display: flex;
   justify-content: center;

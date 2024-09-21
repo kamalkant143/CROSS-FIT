@@ -98,16 +98,22 @@
     padding-block: 10rem;
     background-color: #0b0b0b9b;
     backdrop-filter: blur(15px);
-    display: none;
+    transform: translateX(30rem);
+    transition: all 0.3s;
   }
 
-  /* .nav-bar .nav-open {
-    display: flex;
-  } */
+  .nav-bar .nav-iteam.open-nav-bar{
+    transform: translateX(0rem);
 
-  /* .nav-bar .nav-iteam .login2 {
-    display: none;
-  } */
+  }
+
+  .nav-bar .nav-open .nav-line{
+    display: initial;
+  }
+
+  .close-navbar{
+    display: initial;
+  }
 
   #services-section .src-details p {
     padding-inline: 15rem;
