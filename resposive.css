@@ -81,9 +81,9 @@
 }
 
 @media (max-width: 970px) {
-  .nav-bar {
-    position: relative;
-  }
+    .nav-bar{
+        position: relative;
+    }
 
   .nav-bar .nav-iteam {
     width: 30rem;
@@ -215,4 +215,23 @@
         padding: 4rem  2rem;
     }
 
+}
+
+@media (max-width: 603px){
+
+    #hero-section .hero-box h1 {
+        margin-bottom: 0rem;
+    }
+    #hero-section .hero-box p {
+        padding-inline: 7rem;
+        padding-top: 1rem;
+    }
+    #services-section .src-details p ,
+    #team-section .team-details p,
+    #news-section .news-details p {
+        padding-inline: 7rem;
+    }
+    #team-section .team-container .team-box {
+        width: 30rem;
+    }
 }
