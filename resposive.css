@@ -52,4 +52,33 @@
     .nav-bar {
         padding: 0 3rem;
     }
+
+    #hero-section .hero-box p {
+        padding-inline: 15rem;
+    }
+
+    #about-section .left-box {
+        margin-left: 5rem;
+    }
+
+    #about-section .left-box h2 {
+        font-size: 4rem;
+    }
+
+    #about-section .left-box h3 {
+        font-size: 2rem;
+    }
+
+    #news-section .news-container .news-box {
+        width: 70rem;
+        height: 25rem;
+    }
+
+    #news-section .news-container .news-box .right {
+        padding: 5rem 5rem;
+    }
+}
+
+@media (max-width: 970px){
+
 }
