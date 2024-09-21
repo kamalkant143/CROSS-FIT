@@ -174,5 +174,45 @@
 }
 
 @media (max-width: 725px){
-    
+    #news-section .news-container .news-box {
+        width: 60rem;
+    }
+    #news-section .news-container .news-box .right {
+        padding: 4rem;
+    }
+}
+@media (max-width: 670px){
+    #hero-section .hero-box p {
+        padding-inline: 10rem;
+    }
+/* 
+    #services-section {
+        height: 200vh;
+       
+    } */
+    #services-section .src-details p {
+        padding-inline: 10rem;
+        text-align: center;
+    }
+
+    #services-section .src-container .src-box {
+        width: 25rem;
+    }
+
+    #team-section .team-details p {
+        padding-inline: 10rem;
+        text-align: center;
+    }
+
+    #news-section .news-details p {
+        padding-inline: 10rem;
+        text-align: center;
+    }
+    #news-section .news-container .news-box {
+        width: 55rem;
+    }
+    #news-section .news-container .news-box .right {
+        padding: 4rem  2rem;
+    }
+
 }
