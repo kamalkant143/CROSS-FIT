@@ -127,6 +127,27 @@ li {
   z-index: 100;
 }
 
+
+
+.nav-bar .nav-open {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-bar .nav-open .nav-line{
+  display: none;
+}
+
+.nav-bar .nav-open a i{
+  
+  color: var(--font-color);
+  font-size: 2rem;
+}
+
+.nav-bar .nav-open a:hover i{
+  color: var(--main-color);
+}
+
 .nav-bar .logo-box {
   display: flex;
   justify-content: center;

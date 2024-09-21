@@ -97,14 +97,17 @@
     bottom: 0;
     padding-block: 10rem;
     background-color: #0b0b0b9b;
-  backdrop-filter: blur(15px);
-  display: none;
-
-  }
-
-  .nav-bar .nav-iteam .login2{
+    backdrop-filter: blur(15px);
     display: none;
   }
+
+  /* .nav-bar .nav-open {
+    display: flex;
+  } */
+
+  /* .nav-bar .nav-iteam .login2 {
+    display: none;
+  } */
 
   #services-section .src-details p {
     padding-inline: 15rem;
