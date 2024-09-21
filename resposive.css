@@ -89,13 +89,14 @@
     width: 30rem;
     height: auto;
     position: fixed;
-    text-align: center;
+    /* text-align: center; */
     display: flex;
     flex-direction: column;
     top: 0rem;
     right: 0;
     bottom: 0;
-    padding-block: 10rem;
+    /* padding-block: 10rem; */
+    padding: 10rem;
     background-color: #0b0b0b9b;
     backdrop-filter: blur(15px);
     transform: translateX(30rem);
@@ -127,6 +128,14 @@
     padding-inline: 15rem;
     text-align: center;
   }
+
+  #team-section .team-container {
+   
+    flex-wrap: wrap;
+}
+  #team-section .team-container .team-box {
+    width: 35rem;
+}
 
   #news-section .news-details p {
     padding-inline: 15rem;
