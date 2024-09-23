@@ -473,7 +473,9 @@
 }
 
   #news-section .news-container .news-box {
-    border-bottom: 2px solid var(--main-color);
+    border-bottom: 4px solid var(--main-color);
+    border-top: 4px solid var( --second-main-color);
+
     width: 100%;
     height: auto;
     display: flex;
