@@ -25,7 +25,7 @@
   }
   #about-section .left-box {
     padding: 0rem;
-    margin-left: 8rem;
+    margin-left: 0rem;
   }
   #services-section .src-container .src-box {
     width: 30rem;
@@ -54,9 +54,6 @@
     padding-inline: 15rem;
   }
 
-  #about-section .left-box {
-    margin-left: 5rem;
-  }
 
   #about-section .left-box h2 {
     font-size: 4rem;
@@ -141,16 +138,19 @@
   }
 }
 
-@media (max-width: 892px) {
-  #about-section .left-box {
-    margin-left: 2rem;
-  }
-}
 
 @media (max-width: 862px) {
+
+  .nav-bar .logo-box {
+    margin-left: -3rem;
+}
   #about-section {
+    background-color: var(--background-color);
+    display: flex;
+    align-items: flex-start;
     flex-direction: column-reverse;
-  }
+}
+ 
   #about-section .right-box {
     width: 100%;
     display: flex;
@@ -162,7 +162,7 @@
   }
   #about-section .left-box {
     width: 100%;
-    padding-inline: 1rem;
+    padding: 2rem;
   }
 
   #services-section .src-container .src-box {
