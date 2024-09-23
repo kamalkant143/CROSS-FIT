@@ -466,4 +466,36 @@
   #team-section .team-container .team-box {
     width: 27rem;
   }
+
+  #news-section .news-container {
+    display: initial;
+   
+}
+
+  #news-section .news-container .news-box {
+    border-bottom: 2px solid var(--main-color);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+#news-section .news-container .news-box .left {
+  width: 100%;
+}
+#news-section .news-container .news-box .right {
+  width: 100%;
+  padding: 1rem;
+}
+
+#news-section .news-container .news-box .right h2 {
+  font-size: 1.8rem;
+}
+
+#news-section .news-container .news-box .right p {
+  font-size: 1.5rem;
+}
+#news-section .news-container .news-box .right h3 {
+  font-size: 1.4rem;
+}
 }
