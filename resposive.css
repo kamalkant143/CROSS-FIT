@@ -381,7 +381,7 @@
 
   #news-section .news-container .news-box {
     width: 30rem;
-    height: 16rem;
+    height: auto;
   }
   #news-section .news-container .news-box .right {
     padding: 1rem 1rem;
@@ -511,5 +511,11 @@
 
   .contact-section .inputs {
     margin-top: 1.2rem;
+}
+
+#services-section .src-details p,
+#team-section .team-details p,
+#news-section .news-details p {
+  padding-inline: 1rem;
 }
 }
