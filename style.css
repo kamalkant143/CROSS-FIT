@@ -529,7 +529,7 @@ li {
 
 #team-section .team-container .team-box .bottom .follower a {
   text-decoration: none;
-  border: 1px solid red;
+  border: 1px solid var(--main-color);
   padding: 0.8rem;
 }
 
@@ -603,7 +603,6 @@ li {
 #news-section .news-container .news-box .left{
   width: 50%;
   overflow: hidden;
-  /* position: relative; */
   cursor: pointer;
 }
 
