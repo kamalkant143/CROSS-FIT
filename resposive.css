@@ -24,7 +24,7 @@
     padding-block: 3rem;
   }
   #about-section .left-box {
-    padding: 0rem;
+    padding: 0rem 2rem;
     margin-left: 0rem;
   }
   #services-section .src-container .src-box {
@@ -82,6 +82,12 @@
     position: fixed;
   }
 
+  @media (max-width: 922px){
+    #about-section .left-box h2 {
+      font-size: 3.6rem;
+  }
+  }
+
   .nav-bar .nav-iteam {
     width: 30rem;
     height: auto;
@@ -120,6 +126,14 @@
     width: 40rem;
   }
 
+
+  #services-section .src-container .src-box:hover .details-box {
+    bottom:initial ;
+    left: initial;
+  pointer-events: none;
+
+  }
+
   #team-section .team-details p {
     padding-inline: 15rem;
     text-align: center;
@@ -137,7 +151,6 @@
     text-align: center;
   }
 }
-
 
 @media (max-width: 862px) {
 
@@ -178,6 +191,7 @@
     padding: 4rem;
   }
 }
+
 @media (max-width: 670px) {
   #hero-section .hero-box p {
     padding-inline: 10rem;
