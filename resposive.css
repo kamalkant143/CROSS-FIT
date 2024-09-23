@@ -273,13 +273,12 @@
 
   #hero-section .hero-box h1 {
     font-size: 6.5rem;
-}
+  }
 
-#hero-section .hero-box h2 {
-  margin-top: -1.3rem;
-  font-size: 2.5rem;
-  
-}
+  #hero-section .hero-box h2 {
+    margin-top: -1.3rem;
+    font-size: 2.5rem;
+  }
   #hero-section .hero-box p {
     padding-inline: 5rem;
     font-size: 1.6rem;
@@ -311,14 +310,14 @@
 
   #services-section .src-details,
   #team-section .team-details,
-  #news-section .news-details  {
+  #news-section .news-details {
     padding-top: 5rem;
   }
 
   #services-section .src-container .src-box:hover .details-box {
     bottom: 5rem;
     left: 5rem;
-}
+  }
 
   #team-section .team-container {
     padding: 5rem 0;
@@ -346,131 +345,125 @@
   }
 }
 
-
-@media (max-width: 424px){
+@media (max-width: 424px) {
   #hero-section .hero-box p {
     padding-inline: 3rem;
-}
-#news-section .news-container .news-box {
-  width: 35rem;
-  height: 20rem;
-}
+  }
+  #news-section .news-container .news-box {
+    width: 35rem;
+    height: 20rem;
+  }
 }
 
-@media (max-width: 375px){
-
+@media (max-width: 379px) {
   .contact-section .container {
     width: 30rem;
     height: 45rem;
     padding: 3rem;
-   
-}
-.contact-section .inputs {
-  margin-top: 2rem;
+  }
+  .contact-section .inputs {
+    margin-top: 2rem;
+  }
+
+  #services-section .src-details p,
+  #team-section .team-details p,
+  #news-section .news-details p {
+    padding-inline: 2.5rem;
+  }
+
+  #services-section .src-container .src-box {
+    width: 30rem;
+  }
+  #services-section .src-container .src-box.src-box-last {
+    width: 30rem;
+    height: 20rem;
+  }
+
+  #news-section .news-container .news-box {
+    width: 30rem;
+    height: 16rem;
+  }
+  #news-section .news-container .news-box .right {
+    padding: 1rem 1rem;
+  }
+  #news-section .news-container .news-box .right h2 {
+    font-size: 1.3rem;
+  }
+
+  #news-section .news-container .news-box .right p {
+    margin-block: 1rem;
+    font-size: 1.2rem;
+  }
+  #news-section .news-container .news-box .right h3 {
+    font-size: 1.1rem;
+  }
+ 
 }
 
-
-#services-section .src-details p,
-#team-section .team-details p,
-#news-section .news-details p {
-  padding-inline: 2.5rem;
-}
-
-#services-section .src-container .src-box {
-  width: 30rem;
-}
-#services-section .src-container .src-box.src-box-last {
-  width: 30rem;
-  height: 20rem;
-}
-
-#news-section .news-container .news-box {
-  width: 30rem;
-  height: 16rem;
-}
-#news-section .news-container .news-box .right {
-  padding: 1rem 1rem;
-}
-#news-section .news-container .news-box .right h2 {
-  font-size: 1.3rem;
-}
-
-#news-section .news-container .news-box .right p {
-  margin-block: 1rem;
-  font-size: 1.2rem;
-}
-#news-section .news-container .news-box .right h3 {
-  font-size: 1.1rem;
-}
-}
-
-@media (max-width: 332px){
+@media (max-width: 332px) {
   .nav-bar {
     padding: 0 2rem;
-}
+  }
 
-#hero-section .hero-box h1 {
-  font-size: 5.5rem;
-}
+  #hero-section .hero-box h1 {
+    font-size: 5.5rem;
+  }
 
-#hero-section .hero-box h2 {
-  margin-top: -1rem;
-  font-size: 2.2rem;
-}
+  #hero-section .hero-box h2 {
+    margin-top: -1rem;
+    font-size: 2.2rem;
+  }
 
-#hero-section .hero-box p {
-  padding-inline: 1.5rem;
-}
+  #hero-section .hero-box p {
+    padding-inline: 1.5rem;
+  }
 
-#about-section .right-box img {
-  width: 25rem;
-}
+  #about-section .right-box img {
+    width: 25rem;
+  }
 
-#about-section .left-box h2 {
-  font-size: 2.5rem;
-}
+  #about-section .left-box h2 {
+    font-size: 2.5rem;
+  }
 
-#about-section .left-box h3 {
-  font-size: 1.5rem;
-}
-#about-section .left-box p {
-  font-size: 1.3rem;
-}
+  #about-section .left-box h3 {
+    font-size: 1.5rem;
+  }
+  #about-section .left-box p {
+    font-size: 1.3rem;
+  }
 
-#about-section .left-box .about,
-#services-section .src-details h2,
-#team-section .team-details h2,
-#news-section .news-details h2 {
-  font-size: 3rem;
-}
+  #about-section .left-box .about,
+  #services-section .src-details h2,
+  #team-section .team-details h2,
+  #news-section .news-details h2 {
+    font-size: 3rem;
+  }
 
-#services-section .src-details p,
-#team-section .team-details p,
-#news-section .news-details p {
-  padding-inline: 2rem;
-  font-size: 1.3rem;
-}
+  #services-section .src-details p,
+  #team-section .team-details p,
+  #news-section .news-details p {
+    padding-inline: 2rem;
+    font-size: 1.3rem;
+  }
 
-#services-section .src-container .src-box {
-  width: 25rem;
-}
-#services-section .src-container .src-box:hover .details-box {
-  bottom: 3rem;
-  left: 2rem;
-}
+  #services-section .src-container .src-box {
+    width: 25rem;
+  }
+  #services-section .src-container .src-box:hover .details-box {
+    bottom: 3rem;
+    left: 2rem;
+  }
 
-#services-section .src-container .src-box .details-box span {
-  font-size: 1.5rem;
-}
-#services-section .src-container .src-box.src-box-last {
-  width: 25rem;
-  height: 17rem;
-}
+  #services-section .src-container .src-box .details-box span {
+    font-size: 1.5rem;
+  }
+  #services-section .src-container .src-box.src-box-last {
+    width: 25rem;
+    height: 17rem;
+  }
 
-#team-section .team-container .team-box {
-  width: 27rem;
-}
-
-
-
+  #team-section .team-container .team-box {
+    width: 27rem;
+  }
 }

@@ -132,6 +132,7 @@ li {
 .nav-bar .nav-open {
   display: flex;
   gap: 2rem;
+  cursor: pointer;
 }
 
 .nav-bar .nav-open .nav-line{
