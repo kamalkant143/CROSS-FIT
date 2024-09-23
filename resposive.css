@@ -353,10 +353,6 @@
     width: 35rem;
     height: auto;
   }
-
-  #news-section .news-container .news-box .right {
-    padding: 3rem 1rem;
-}
 }
 
 @media (max-width: 379px) {
