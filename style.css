@@ -293,7 +293,6 @@ li {
 }
 
 #about-section .right-box .container {
-  /* border: 10px solid var(--main-color); */
   border-top: 10px solid var(--main-color);
   border-left: 10px solid var(--main-color);
   border-right: 10px solid var(--second-main-color);
@@ -343,10 +342,8 @@ li {
 }
 
 #services-section .src-container {
-  /* padding-inline: 8rem; */
   color: #fff;
   padding-top: 5rem;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
