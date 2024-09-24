@@ -760,3 +760,17 @@ input {
 .contact-section .inputs button:hover {
   background-color: var(--main-color);
 }
+
+
+/* ====== footer section styling ====== */
+
+#footer{
+  background-color: var(--second-main-color);
+  text-align: center;
+  padding: 3rem 0rem;
+}
+
+#footer h2{
+  color: var(--main-color);
+  font-size: ;
+}
