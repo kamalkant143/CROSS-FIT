@@ -767,10 +767,10 @@ input {
 #footer{
   background-color: var(--second-main-color);
   text-align: center;
-  padding: 3rem 0rem;
+  padding: 2rem 0rem;
 }
 
 #footer h2{
   color: var(--main-color);
-  font-size: ;
+  font-size: 2rem;
 }
